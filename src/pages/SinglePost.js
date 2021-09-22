@@ -90,7 +90,7 @@ export default function SinglePost(props) {
                       </Label>
                     </Button>
                   </MyPopup>
-                  {user && user.username == username && (
+                  {user && user.username === username && (
                     <DeleteButton postId={id} callback={deletePost} />
                   )}
                 </Card.Content>
